@@ -1,0 +1,225 @@
+/* Portfolio.css */
+
+.portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .portfolio-header {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .portfolio-title {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .portfolio-title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    margin: 0.5rem auto 0;
+    border-radius: 2px;
+  }
+  
+  .portfolio-subtitle {
+    color: #555;
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+    margin-top: 1.5rem;
+  }
+  
+  .skill-tag {
+    background-color: #f8f9fa;
+    color: #2c3e50;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: default;
+    border: 1px solid #e9ecef;
+  }
+  
+  .skill-tag:hover {
+    background-color: #e9f7fe;
+    color: #3498db;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .project-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-image-container {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .project-card:hover .project-image {
+    transform: scale(1.05);
+  }
+  
+  .project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(41, 128, 185, 0.9);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* THIS IS THE CRUCIAL HOVER RULE THAT WAS MISSING */
+  .project-card:hover .project-overlay {
+    opacity: 1;
+  }
+  
+  .project-info-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .project-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+  
+  .project-description-container {
+    flex: 1;
+    overflow-y: auto;
+    margin: 0.5rem 0;
+    padding-right: 0.5rem;
+  }
+  
+  .project-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
+  }
+  
+  .github-button-container {
+    flex-shrink: 0;
+    padding-top: 1rem;
+  }
+  
+  .github-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #2c3e50;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .github-button:hover {
+    background: #1a252f;
+    transform: translateY(-2px);
+  }
+  
+  .github-icon {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    margin-left: 0.5rem;
+  }
+  
+  /* Custom scrollbar */
+  .project-description-container::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .project-description-container::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+  
+  .project-description-container::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+  }
+  
+  .project-description-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .portfolio-container {
+      padding: 2rem 1rem;
+    }
+    
+    .portfolio-title {
+      font-size: 2rem;
+    }
+    
+    .project-image-container {
+      height: 200px;
+    }
+    
+    .project-overlay {
+      padding: 1rem;
+    }
+    
+    .project-title {
+      font-size: 1.3rem;
+    }
+    
+    .project-description {
+      font-size: 0.85rem;
+    }
+  }

@@ -1,0 +1,23 @@
+
+
+.box{
+    text-align: left;
+    float: left;
+    width: 50%;
+    margin-top: 55px;
+}
+
+.box h1{
+    width: 475px;
+    text-align: left;
+    font-size: 40px;
+    color: rgb(149, 149, 236);
+
+}
+
+.box p{
+    width: 475px;
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 18px;
+}

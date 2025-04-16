@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: #fff;
+  }
+  
+.logo {
+  
+  padding: 10px;
+}
+
+.logo-image {
+  width: 150px;  
+  height: auto; 
+}
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: transparent;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .navbar a:hover{
+    color: #0056b3;
+  }
+
+  .navbar a:active{
+    color: rgb(216, 180, 180);
+  }
+  
+  .main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+  }
+  
+  .intro {
+    max-width: 50%;
+  }
+  
+  .intro h1 {
+    font-size: 50px;
+  }
+  
+  .intro p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .profile-picture img {
+    width: 350px;
+    border-radius: 50%;
+  }
+  
+  .sidebar {
+    padding: 50px;
+  }
+  
+  .sidebar h3, .sidebar h4 {
+    color: #007BFF;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .sidebar li {
+    display: inline;
+  }
+  
+  .sidebar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover {
+    color: #007BFF;
+  }
+
+  .typewriter-effect {
+    color: #007BFF;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 3em;
+    line-height: 1.2;
+    margin: 0;
+  }
+  
+  .intro p {
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+
+  .highlight {
+    font-weight: bold;
+    color: #58a3f3; 
+  }
+  
+  .highlight-southafrica {
+    font-weight: bold;
+    color: #58a3f3; 
+  }
+ 
+
+/* Background container */
+.background {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Smoke effect */
+.smoke {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('./white.png') repeat; 
+  opacity: 0.5; 
+  animation: smokeAnimation 20s infinite; 
+}
+
+/* Smoke animation */
+@keyframes smokeAnimation {
+  0% {
+    transform: translateY(10) scaleX(1);
+  }
+  50% {
+    transform: translateY(-50%) scaleX(1.2);
+  }
+  100% {
+    transform: translateY(-100%) scaleX(1);
+    opacity: 0;
+  }
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #053b70;
+  border-radius: 25px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+  background-color: #09335f;
+  transform: scale(1.05);
+}
+.contact-me{
+  background-color: rgb(4, 0, 8);
+}
+
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.social-icons li {
+  margin: 0 10px; /* Adds space between icons */
+}
+
+.social-icons li a {
+  font-size: 24px; /* Adjust icon size */
+  color: #333; /* Icon color */
+  transition: color 0.3s ease;
+}
+
+.social-icons li a:hover {
+  color: #007bff; /* Change icon color on hover */
+}

@@ -4,7 +4,7 @@ import picture from './profile.png';
 import Typewriter from 'typewriter-effect';
 import Contact from './Components/Contact';
 import {  FaLinkedin, FaGithub, FaWhatsapp, FaDownload , FaEnvelope} from 'react-icons/fa';
-import resume from './Katleho victor molangeni Resume .pdf';
+import resume from './Katleho Victor Molangeni - Software.pdf';
 //import {Link as ScrollLink} from 'react-scroll';
 import Heading from './Components/Navbar';
 import About from './Components/About';
@@ -46,10 +46,10 @@ function App() {
             </div>
             {/* Social Icons */}
             <ul className="social-icons">
-              <li><a href="mailto:molangenikatleho00@gmail.com" target='_blank'><FaEnvelope /></a></li>
-              <li><a href="https://wa.me/27694414727" target='_blank'><FaWhatsapp /></a></li>
-              <li><a href="https://www.linkedin.com/in/katleho-victor-molangeni-080500313/" target='_blank'><FaLinkedin /></a></li>
-              <li><a href="https://github.com/KatlehoVictorMolangeni" target='_blank'><FaGithub /></a></li>
+              <li><a href="mailto:molangenikatleho00@gmail.com" target='_blank' rel="noreferrer"><FaEnvelope /></a></li>
+              <li><a href="https://wa.me/27694414727" target='_blank' rel="noreferrer"><FaWhatsapp /></a></li>
+              <li><a href="https://www.linkedin.com/in/katleho-victor-molangeni-080500313/" target='_blank' rel="noreferrer"><FaLinkedin /></a></li>
+              <li><a href="https://github.com/KatlehoVictorMolangeni" target='_blank' rel="noreferrer"><FaGithub /></a></li>
             </ul>
           </div>
           <div className="profile-picture">

@@ -11,13 +11,13 @@ const projects = [
   {
     title: "AssessMate",
     image: one,
-    github: "https://github.com/yourgithub/wwf-why-go-wild",
+    github: "https://github.com/KatlehoVictorMolangeni/HCI-Assignment",
     description: "AssessMate is a student-focused academic assistant designed to simplify task management, reduce burnout, and boost motivation. It helps learners stay on top of deadlines with smart reminders, motivational quotes, and quick access to tutor support—all in one easy-to-use platform."
   },
   {
     title: "Kasi My Kasi",
     image: two,
-    github: "https://github.com/yourgithub/pervrte",
+    github: "https://github.com/KatlehoVictorMolangeni/Ko-kasi",
     description: "Kasi My Kasi is a community-driven platform that helps residents easily locate essential services like security, housing, healthcare, and food support within their township (kasi). By using real-time location and interactive maps, Kasi My Kasi connects people to the nearest service providers, empowering local communities through accessibility, safety, and support."
   },
   {

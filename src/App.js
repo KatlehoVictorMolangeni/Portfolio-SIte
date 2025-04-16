@@ -4,7 +4,7 @@ import picture from './profile.png';
 import Typewriter from 'typewriter-effect';
 import Contact from './Components/Contact';
 import {  FaLinkedin, FaGithub, FaWhatsapp, FaDownload , FaEnvelope} from 'react-icons/fa';
-import resume from './Katleho Victor Molangeni - Software.pdf';
+import resume from './Katleho Victor Molangeni - Software Engineer.pdf';
 //import {Link as ScrollLink} from 'react-scroll';
 import Heading from './Components/Navbar';
 import About from './Components/About';

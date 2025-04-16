@@ -27,8 +27,8 @@ Here are some of the technologies I'm comfortable with:
 
 Feel free to connect with me or check out more of my work:
 - Portfolio Website: [coming soon]
-- LinkedIn: [your-link-here]
-- Email: [your-email-here]
+- LinkedIn: [www.linkedin.com/in/katleho-victor-molangeni-080500313]
+- Email: [molangenikatleho00@gmail.com]
 
 ---
 

@@ -3,12 +3,11 @@ import './Portfolio.css';
 import picture from './profile.png'; 
 import Typewriter from 'typewriter-effect';
 import Contact from './Components/Contact';
-import { FaFacebook, FaLinkedin, FaInstagram, FaGithub, FaWhatsapp, FaDownload , FaEnvelope} from 'react-icons/fa';
+import {  FaLinkedin, FaGithub, FaWhatsapp, FaDownload , FaEnvelope} from 'react-icons/fa';
 import resume from './Katleho victor molangeni Resume .pdf';
 //import {Link as ScrollLink} from 'react-scroll';
 import Heading from './Components/Navbar';
 import About from './Components/About';
-import Me from './Components/Katleho';
 import Portfolio from './Components/Work';
 import Footer from './Components/Footer';
 
